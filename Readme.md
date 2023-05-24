@@ -1,4 +1,4 @@
-```
+```csharp
 var pq = new PriorityQueue<int, int>(new List<(int, int)>{ (6, 6), (1, 1), (2, 2), (3, 3), (4, 4), (5, 5) });
 var pq2 = new PriorityQueue<int, int>(new List<(int, int)>{ (6, -6), (1, -1), (2, -2), (3, -3), (4, -4), (5, -5) });
 
@@ -17,7 +17,7 @@ while (pq2.Count > 0)
 }
 ```
 
-```
+```bash
 PriorityQuque 1 - Ascending / Min Heap
 Value: 1
 Value: 2
